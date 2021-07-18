@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+	background-image: url("../background-2389033.jpg");
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+#menu ul {
+	margin-top: auto;
+	background-color:chartreuse;
+	list-style: none;
+	padding: 12px 20px;
+	
+}
+
+#menu ul li {
+	display: inline;
+	
+}
+
+#menu ul li a {
+	padding: 5px 10px;
+	display: inline block;
+	color:darkblue;
+	text-decoration: none;
+	
+}
+
+#menu ul li a:hover {
+	color:#ff3300;
+	
+}
+
+
+h5 {
+	text-align:center;
+	color:white;
+}
+
+h1 {
+	
+	color:white;
+	position: absolute;
+	top: 30px;
+	left: 612px;
+	
+}
+
+h3 {
+	color:white;
+	position:absolute;
+	top: 150px;
+	left: 380px;
+}
+#imgbotao2 {
+	position: absolute;
+	top: 490px;
+	left: 645px;
+}
+
+#img_hmudo {
+	position: absolute;
+	top: 270px;
+	left: 570px;
+}
+
+#logos img {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}

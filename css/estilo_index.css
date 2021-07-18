@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+	background-image: url("../background-2389033.jpg");
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	
+	
+	
+	
+	
+}
+
+#menu ul {
+	
+	margin-top: auto;
+	background-color:chartreuse;
+	list-style: none;
+	padding: 12px 15px;
+
+	
+}
+
+#menu ul li {
+	
+	display: inline;
+	
+	
+	
+}
+
+#menu ul li a {
+	padding: 5px 10px;
+	display: inline block;
+	color:darkblue;
+	text-decoration: none;
+	
+	
+	
+}
+
+#menu ul li a:hover {
+	color:#ff3300;
+	
+}
+
+
+#logos img {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+
+#x {
+	position: absolute;
+	top: 240px;
+	left: 970px;
+}
+
+
+#ch {
+	position: absolute;
+	top: 240px;
+	left: 565px;
+}
+
+
+#hmudo {
+	position: absolute;
+	top:240px;
+	left: 171px;
+}
+
+
+
+
+
+h5 {
+	text-align:center;
+	color:white;
+}
+
+h1 {
+	
+	color:white;
+	position: absolute;
+	top: 30px;
+	left: 612px;
+	font-size: 36px;
+	
+}
+
+#imgbotaoh {
+	position: absolute;
+	top: 460px;
+	left: 192px;
+
+}
+
+#imgbotaoch {
+	position: absolute;
+	top: 460px;
+	left: 592px;
+}
+
+#imgbotaox {
+	position: absolute;
+	top: 460px;
+	left: 970px;
+}
+
+#imgbotaoblog {
+	position: absolute;
+	top: 50px;
+	left: 1250px;
+}
+
+

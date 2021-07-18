@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+	background-position:top;
+}
+
+	
+form {
+
+	background-color: rgba(255,81,0,1.00);
+	width: 230px;
+	margin: auto;
+	padding: 12px;
+	border-radius: 10px;
+	position: absolute;
+    top: 28%;
+    left: 23%;
+	font-size: 14px;
+	
+	
+
+}
+
+label {
+	text-align: center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:white;
+	font-weight: bold;
+}
+
+h1 {
+	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:darkblue;
+	font-weight: bold;
+	position: absolute;
+	top:34px;
+	left: 430px;
+}
+
+h2 {
+	
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:darkblue;
+	font-weight: bold;
+	position: absolute;
+	top: 120px;
+	left: 430px;
+}
+
+h4 {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	color:blue;
+	font-weight: bold;
+
+}
+
+h5 {
+	color:white;
+	position: absolute;
+	top: 68%;
+    left: 60%;
+	
+}
+
+input, textarea {
+	width: 180px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid;
+	border-radius: 6px;
+}
+
+textarea {
+	height: 90px;
+}
+
+#enviar, #limpar {
+	background-color: aquamarine;
+	border: 1px solid medium;
+	color: black;
+	font-size: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: bold;
+	width: 80px;
+}
+
+#leg {
+	
+	color:yellow;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 16px;
+}
+
+

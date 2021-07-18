@@ -1,0 +1,58 @@
+<!doctype html>
+
+
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+		
+  <title>formulario</title>
+	<link rel="stylesheet" href="css/estilo.css">;
+	
+</head>
+	
+	<body>	 
+		<h1>Seja bem vindo ao conhecimento</h1><br/>
+		
+		<h2>Quem disse que aprender tem que ser chato?</h2><br/>
+		
+		<h5>Nossa empresa tem como meta principal,<br> 
+		a publicação, de livros voltados à formação<br>
+		infantil, complementado valores no âmbito do<br>
+		ensino formal e na área social, através de<br>
+		conteúdos que enriqueçam o campo da formação<br>
+		social da criança facilitem o aprendizado formal.<br>
+		www.astraleditora.com.br</h5>
+	
+		
+	<form action="envio.php" method="post">
+	
+		<fieldset>
+			<legend id="leg"><strong>Formulário de Solitação</strong></legend>
+		
+	
+	    <label for="nome">Nome</label>
+	      <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required autofocus autocomplete="off"><br/>
+			
+		<label for="email">Email</label>
+	      <input type="email" name="email" id="email" placeholder="Informe seu email" required autocomplete="off"><br>
+			
+		<label for="telefone">Telefone</label>
+	      <input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" autocomplete="off"><br/>
+			
+		<label for="assunto">Assunto</label>
+	      <input type="text" name="assunto" id="assunto" placeholder="Informe o assunto" required autocomplete="off"><br/>
+			
+		<label for="mensagem">Mensagem</label><br>
+	      <textarea name="msg" id="mensagem" placeholder="Digite aqui sua mensagem" required></textarea> 
+		
+		<br>
+	
+	    <input type="reset" value="Limpar" id="limpar">
+		
+		<input type="submit" value="Enviar" id="enviar">
+		
+	  </fieldset>
+		
+	</form>
+</body>
+</html>
